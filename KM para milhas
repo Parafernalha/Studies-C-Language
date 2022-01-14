@@ -1,0 +1,21 @@
+/* CONVERSOR KILOMETROS PARA MILHAS*/
+
+
+ #include <stdio.h>
+ #include<stdlib.h>
+
+ int main ()
+
+ {
+
+ int Kilometros; // variavel que vai receber e guardar o valor da kilometragem
+ int Milhas; // variavel que vai receber e guardar o valor em milhas
+
+ printf ("Escreva uma distância em kilometros: \n"); // Pede para que o usuário digite a distancia em kilomêtros
+
+ scanf ("%d", &Kilometros);
+
+ Milhas = ((Kilometros/1.61)); // Converte kilomêtros em milhas
+
+ printf("A distancia em milhas e: %d", Milhas); // informa a distância em milhas
+ }
